@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64CC74FB2C2259E200DC4686 /* Neko_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC74FA2C2259E200DC4686 /* Neko_WeatherApp.swift */; };
+		64CC74FF2C2259E500DC4686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CC74FE2C2259E500DC4686 /* Assets.xcassets */; };
+		64CC750E2C225AC600DC4686 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC75092C225AC500DC4686 /* ContentView.swift */; };
+		64CC750F2C225AC600DC4686 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC750A2C225AC500DC4686 /* LoadingView.swift */; };
+		64CC75102C225AC600DC4686 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC750B2C225AC500DC4686 /* WeatherView.swift */; };
+		64CC75112C225AC600DC4686 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC750C2C225AC500DC4686 /* WelcomeView.swift */; };
+		64CC75152C225AFA00DC4686 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC75122C225AFA00DC4686 /* LocationManager.swift */; };
+		64CC75162C225AFA00DC4686 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC75132C225AFA00DC4686 /* WeatherManager.swift */; };
+		64CC751B2C225B5400DC4686 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC75172C225B5400DC4686 /* ModelData.swift */; };
+		64CC751C2C225B5400DC4686 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CC75182C225B5400DC4686 /* Preview Assets.xcassets */; };
+		64CC751D2C225B5400DC4686 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 64CC75192C225B5400DC4686 /* weatherData.json */; };
+		64CC751F2C225B6A00DC4686 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC751E2C225B6A00DC4686 /* Extensions.swift */; };
+		64CC75212C24FD1300DC4686 /* forecastData.json in Resources */ = {isa = PBXBuildFile; fileRef = 64CC75202C24FD1300DC4686 /* forecastData.json */; };
+		64FA9CB12DA0CFA70086A970 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 64FA9CB02DA0CF900086A970 /* Secrets.xcconfig */; };
+		64FA9CB32DA0D5B10086A970 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64FA9CB22DA0D5AA0086A970 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64CC74F72C2259E200DC4686 /* Neko Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neko Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CC74FA2C2259E200DC4686 /* Neko_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neko_WeatherApp.swift; sourceTree = "<group>"; };
+		64CC74FE2C2259E500DC4686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CC75002C2259E500DC4686 /* Neko_Weather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neko_Weather.entitlements; sourceTree = "<group>"; };
+		64CC75092C225AC500DC4686 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64CC750A2C225AC500DC4686 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		64CC750B2C225AC500DC4686 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		64CC750C2C225AC500DC4686 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		64CC75122C225AFA00DC4686 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		64CC75132C225AFA00DC4686 /* WeatherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		64CC75172C225B5400DC4686 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		64CC75182C225B5400DC4686 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64CC75192C225B5400DC4686 /* weatherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		64CC751E2C225B6A00DC4686 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		64CC75202C24FD1300DC4686 /* forecastData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = forecastData.json; sourceTree = "<group>"; };
+		64CC75222C263C6B00DC4686 /* Neko-Weather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Neko-Weather-Info.plist"; sourceTree = SOURCE_ROOT; };
+		64FA9CB02DA0CF900086A970 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		64FA9CB22DA0D5AA0086A970 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CC74F42C2259E200DC4686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CC74EE2C2259E200DC4686 = {
+			isa = PBXGroup;
+			children = (
+				64CC74F92C2259E200DC4686 /* Neko Weather */,
+				64CC74F82C2259E200DC4686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64CC74F82C2259E200DC4686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CC74F72C2259E200DC4686 /* Neko Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CC74F92C2259E200DC4686 /* Neko Weather */ = {
+			isa = PBXGroup;
+			children = (
+				64FA9CB02DA0CF900086A970 /* Secrets.xcconfig */,
+				64FA9CB22DA0D5AA0086A970 /* .gitignore */,
+				64CC75222C263C6B00DC4686 /* Neko-Weather-Info.plist */,
+				64CC750D2C225AC500DC4686 /* Views */,
+				64CC75142C225AFA00DC4686 /* Managers */,
+				64CC74FE2C2259E500DC4686 /* Assets.xcassets */,
+				64CC75002C2259E500DC4686 /* Neko_Weather.entitlements */,
+				64CC751A2C225B5400DC4686 /* Preview Content */,
+				64CC751E2C225B6A00DC4686 /* Extensions.swift */,
+				64CC74FA2C2259E200DC4686 /* Neko_WeatherApp.swift */,
+			);
+			path = "Neko Weather";
+			sourceTree = "<group>";
+		};
+		64CC750D2C225AC500DC4686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64CC75092C225AC500DC4686 /* ContentView.swift */,
+				64CC750A2C225AC500DC4686 /* LoadingView.swift */,
+				64CC750B2C225AC500DC4686 /* WeatherView.swift */,
+				64CC750C2C225AC500DC4686 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64CC75142C225AFA00DC4686 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				64CC75122C225AFA00DC4686 /* LocationManager.swift */,
+				64CC75132C225AFA00DC4686 /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		64CC751A2C225B5400DC4686 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64CC75172C225B5400DC4686 /* ModelData.swift */,
+				64CC75182C225B5400DC4686 /* Preview Assets.xcassets */,
+				64CC75192C225B5400DC4686 /* weatherData.json */,
+				64CC75202C24FD1300DC4686 /* forecastData.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CC74F62C2259E200DC4686 /* Neko Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CC75062C2259E500DC4686 /* Build configuration list for PBXNativeTarget "Neko Weather" */;
+			buildPhases = (
+				64CC74F32C2259E200DC4686 /* Sources */,
+				64CC74F42C2259E200DC4686 /* Frameworks */,
+				64CC74F52C2259E200DC4686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neko Weather";
+			productName = "Neko Weather";
+			productReference = 64CC74F72C2259E200DC4686 /* Neko Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CC74EF2C2259E200DC4686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					64CC74F62C2259E200DC4686 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 64CC74F22C2259E200DC4686 /* Build configuration list for PBXProject "Neko Weather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64CC74EE2C2259E200DC4686;
+			productRefGroup = 64CC74F82C2259E200DC4686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CC74F62C2259E200DC4686 /* Neko Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CC74F52C2259E200DC4686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CC751C2C225B5400DC4686 /* Preview Assets.xcassets in Resources */,
+				64FA9CB12DA0CFA70086A970 /* Secrets.xcconfig in Resources */,
+				64CC751D2C225B5400DC4686 /* weatherData.json in Resources */,
+				64CC75212C24FD1300DC4686 /* forecastData.json in Resources */,
+				64FA9CB32DA0D5B10086A970 /* .gitignore in Resources */,
+				64CC74FF2C2259E500DC4686 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CC74F32C2259E200DC4686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CC75102C225AC600DC4686 /* WeatherView.swift in Sources */,
+				64CC751F2C225B6A00DC4686 /* Extensions.swift in Sources */,
+				64CC75112C225AC600DC4686 /* WelcomeView.swift in Sources */,
+				64CC75152C225AFA00DC4686 /* LocationManager.swift in Sources */,
+				64CC75162C225AFA00DC4686 /* WeatherManager.swift in Sources */,
+				64CC750F2C225AC600DC4686 /* LoadingView.swift in Sources */,
+				64CC751B2C225B5400DC4686 /* ModelData.swift in Sources */,
+				64CC74FB2C2259E200DC4686 /* Neko_WeatherApp.swift in Sources */,
+				64CC750E2C225AC600DC4686 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64CC75042C2259E500DC4686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FA9CB02DA0CF900086A970 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64CC75052C2259E500DC4686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FA9CB02DA0CF900086A970 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		64CC75072C2259E500DC4686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FA9CB02DA0CF900086A970 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Neko Weather/Neko_Weather.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neko Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neko-Weather-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egproduction.Neko-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64CC75082C2259E500DC4686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FA9CB02DA0CF900086A970 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Neko Weather/Neko_Weather.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neko Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neko-Weather-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egproduction.Neko-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CC74F22C2259E200DC4686 /* Build configuration list for PBXProject "Neko Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CC75042C2259E500DC4686 /* Debug */,
+				64CC75052C2259E500DC4686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CC75062C2259E500DC4686 /* Build configuration list for PBXNativeTarget "Neko Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CC75072C2259E500DC4686 /* Debug */,
+				64CC75082C2259E500DC4686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CC74EF2C2259E200DC4686 /* Project object */;
+}

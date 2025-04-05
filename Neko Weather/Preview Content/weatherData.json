@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": -88.2986,
+        "lat": 41.76
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 74.73,
+        "feels_like": 74.26,
+        "temp_min": 71.74,
+        "temp_max": 77.74,
+        "pressure": 1016,
+        "humidity": 50
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 12.66,
+        "deg": 60
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1718409724,
+    "sys": {
+        "type": 2,
+        "id": 2083744,
+        "country": "US",
+        "sunrise": 1718360276,
+        "sunset": 1718414961
+    },
+    "timezone": -18000,
+    "id": 4883817,
+    "name": "Aurora",
+    "cod": 200
+}
